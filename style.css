@@ -1,0 +1,96 @@
+  .body {
+    font-family: 'Cormorant Garamond';
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .header {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background: #8072e6;
+  }
+
+  .header_main-image {
+    height: 100%;
+    border-radius: 40%;
+  }
+  
+  .header_main-content {
+    height: 100%;
+    padding-top: 0px;
+    padding-left: 250px;
+  }
+
+  .header_main-text {
+    font-size: 50px;
+    color: #f3e7dc;
+  }
+
+  .header_vk-link {
+    background-image: url(static/vk.jpg);
+    width: 110px;
+    height: 110px;
+    margin-top: 50px;
+    margin-left: 300px;
+    background-size: cover;
+    border-radius: 30%;
+  }
+
+  .main {
+    display: flex;
+    width: 100%;
+    height: 40%;
+  }
+
+  .main_about-section {
+    margin-top: 0;
+    background: rgb(188, 193, 191);
+    width: 60%;
+    height: 100%;
+    padding-left: auto;
+  }
+
+  .main_title {
+    padding-left: 20px;
+    height: 20%;
+    font-size: 40px;
+    color: #41413e;
+  }
+
+  .main_about-content {
+    padding-left: 20px;
+    font-family: 'Cormorant Garamond';
+    font-size: 30px;
+    color: #41413e;
+  }
+
+  .main_skills {
+    margin: 0;
+    background: rgb(188, 193, 191);
+    width: 40%;
+    height: 100%;
+  }
+
+  .main_skills-content {
+    font-size: 30px;
+    font-family: 'Cormorant Garamond';
+    color: #41413e;
+    padding-left: 20px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    background: #8072e6;
+  }
+
+  .footer_text {
+    text-align: center;
+    color: #f3e7dc;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond';
+  }
